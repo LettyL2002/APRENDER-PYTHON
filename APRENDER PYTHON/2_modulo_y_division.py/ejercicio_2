@@ -1,0 +1,12 @@
+numero1: int = int("Ingresa el primer número: ")
+numero2: int = int("Ingresa el segundo número: ")
+
+if numero2 != 0:
+  
+    division: float = numero1 / numero2
+    modulo: int = numero1 % numero2
+
+    print(f"El resultado de la división es: {division}")
+    print(f"El módulo (resto) de la división es: {modulo}")
+else:
+    print("Error: No se puede dividir entre cero.")

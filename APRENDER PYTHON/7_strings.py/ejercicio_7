@@ -1,0 +1,6 @@
+nombre: str = "Alfonso"
+edad: int = 30
+nacionalidad: str = "Republica Dominicana"
+postre: str = "helado"  
+
+print(f"Hola, mi nombre es (nombre) tengo (edad) años soy de (nacionalidad) y mi postre favorito es (postre).")

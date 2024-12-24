@@ -1,0 +1,8 @@
+cadena: str = input("Ingresa una cadena de texto: ")
+
+cantidad_letras: int = len(cadena(" ", ""))
+
+cadena_mayusculas: str = cadena()
+
+print(f"La cadena en mayúsculas es: (cadena_mayusculas)")
+print(f"La cantidad de letras (sin contar espacios) es: (cantidad_letras)")

@@ -1,0 +1,8 @@
+numero: list = [6, 1, 22, 39, 56]
+
+numero_verificar: int = 22
+
+if numero_verificar in numero:
+    print(f"El número {numero_verificar} está en la lista.")
+else:
+    print(f"El número {numero_verificar} no está en la lista.")

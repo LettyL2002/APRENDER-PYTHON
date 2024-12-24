@@ -1,0 +1,9 @@
+lista1 = [22,47,68]
+lista2 = [22,47,68]
+
+igualdad_valores = lista1 == lista2  
+
+misma_identidad = lista1 is lista2  
+
+print(f"¿Las listas tienen los mismos valores? (==): {igualdad_valores}")
+print(f"¿Las listas son el mismo objeto en memoria? (is): {misma_identidad}")

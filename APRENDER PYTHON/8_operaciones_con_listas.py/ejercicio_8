@@ -1,0 +1,7 @@
+frutas: list = ["Arandano", "Maraguya", "Pomo", "Coco"]
+
+frutas.append("Ciruela")
+
+frutas.remove("Arandano")
+
+print("Lista final de frutas:", frutas)
